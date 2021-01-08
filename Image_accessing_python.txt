@@ -1,0 +1,25 @@
+numpy - it is the library used to handle arrays.
+
+matplotlib - it is the plotting library used for getting the image in pixels.
+
+pyplot - it is a collection of functons in matplotlib library.
+
+PIL(Python imaging library) - it will help in opening the image in coding environment
+
+pic_arr.shape - this code of line will give us the (height,width,color channels)
+
+		Three color channels are:
+		RGB- Red Green Blue
+
+plt.imshow(pic_arr) - "imshow" is nothing but image show from "matplotlib.pyplot library"
+
+pic_red=pic_arr.copy() - just getting an copy of pic_arr so original data remains unchanged
+
+Red->0
+Green->1
+Blue->2
+pic_red[:,:,0]) - getting red channel of the image
+pic_red[:,:,1]) - getting green channel of the image
+pic_red[:,:,2]) - getting blue channel of the image
+		
+
